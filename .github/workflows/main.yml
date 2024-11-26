@@ -2,7 +2,7 @@ name: UPB Devops 2024 CICD
 
 on:
   push:
-    branches: [cicd-docker-ec2]
+    branches: [cicd-docker-ec2, main]
 
 jobs:
   build:
