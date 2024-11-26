@@ -15,8 +15,7 @@ jobs:
       - name: Build docker image
         run: docker build -t devops2024/nodejs-app .
       - name: Publish image to docker hub
-        run: docker push devops2024/nodejs-app:latest
-        
+        run: docker push devops2024/nodejs-app:latest 
   deploy:
     needs: build
     runs-on: [self-hosted]
